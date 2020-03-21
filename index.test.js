@@ -25,3 +25,13 @@ describe("subtract", () => {
 function divide(a, b) {
   return a / b;
 }
+describe("subtract1", () => {
+  it("subtract two numbers", () => {
+    const result = subtract(1, 1);
+    expect(result).toBe(0);
+  });
+});
+
+function divide(a, b) {
+  return a / b;
+}
